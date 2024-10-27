@@ -47,15 +47,11 @@ const Screen_01_with_api = () => {
                             <Image style={styles.banner} source={require('../assets/anh03.png')} />
                         </View>
 
-                        <Text style={{fontSize: 20 , fontWeight: 30}}>
-                            Hello, Yaol Amari!
-                        </Text>
-                        <Text style={{fontSize: 15 , fontWeight: 20}}>
-                            We have some additional suggestions for you.
-                        </Text>
+                        <Text style={{fontSize: 20 , fontWeight: 30}}>Hello, Yaol Amari!</Text>
+                        <Text style={{fontSize: 15 , fontWeight: 20}}>We have some additional suggestions for you.</Text>
 
                         <TouchableOpacity>
-                            See all
+                            <Text>See all</Text>
                         </TouchableOpacity>
                     </View>
 

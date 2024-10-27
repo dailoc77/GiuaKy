@@ -46,14 +46,12 @@ const Screen_01 = () => {
                         <View>
                             <Image style={styles.banner} source={require('../assets/anh03.png')} />
                         </View>
-
-                        <Text style={{fontSize: 20 , fontWeight: 30}}>
+                        <Text style={{ fontSize: 20, fontWeight: 30 }}>
                             Hello, Yaol Amari!
                         </Text>
-                        <Text style={{fontSize: 15 , fontWeight: 20}}>
+                        <Text style={{ fontSize: 15, fontWeight: 20 }}>
                             We have some additional suggestions for you.
                         </Text>
-
                         <TouchableOpacity>
                             See all
                         </TouchableOpacity>
@@ -71,7 +69,7 @@ const Screen_01 = () => {
                                 </View>
                                 <Text style={styles.productText}>{item.name}</Text>
                                 <Text style={styles.productText}>{item.price}</Text>
-                                <Text style={styles.productText}><Image source={require('../assets/anh06.png')} style={{width: 20 , height: 20}} /> {item.star}</Text>
+                                <Text style={styles.productText}><Image source={require('../assets/anh06.png')} style={{ width: 20, height: 20 }} /> {item.star}</Text>
                                 <Text style={styles.productText}>{item.description}</Text>
                             </TouchableOpacity>
                         )}
